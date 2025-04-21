@@ -2527,11 +2527,6 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://bizurbanmap.com/dachdeckerei-berlin-sevud</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    <url>
       <loc>https://bizurbanmap.com/serenity-apartments-and-studios-ymohk</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -2543,6 +2538,11 @@
     </url>
     <url>
       <loc>https://bizurbanmap.com/raikou-glaoq</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://bizurbanmap.com/dachdeckerei-berlin-ixjqr</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
