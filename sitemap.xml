@@ -5032,11 +5032,6 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://bizurbanmap.com/dallas-tow-truck-txrdf</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    <url>
       <loc>https://bizurbanmap.com/ag-construction-bdlnr</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -5193,6 +5188,11 @@
     </url>
     <url>
       <loc>https://bizurbanmap.com/golden-care-efrdp</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://bizurbanmap.com/dallas-tow-truck-mnuhh</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
