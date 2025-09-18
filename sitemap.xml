@@ -3497,11 +3497,6 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://bizurbanmap.com/denevan-falon-drjzg</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    <url>
       <loc>https://bizurbanmap.com/varatuomari-espoo-ajwsa</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -15232,11 +15227,6 @@
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://bizurbanmap.com/hooky-pro-trblm</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-    <url>
       <loc>https://bizurbanmap.com/valerus-home-experts-ssqil</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -16593,6 +16583,11 @@
     </url>
     <url>
       <loc>https://bizurbanmap.com/tt-garten-und-bau-gmbh-jnurh</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://bizurbanmap.com/the-bed-bug-experts-of-texas-llc-bed-bug-exterminator-dallas-xiwhk</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
