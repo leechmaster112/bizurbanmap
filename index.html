@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bizurbanmap.com - Business Directory</title>
-    <link rel="canonical" href="https://bizurbanmap.com/" />
+    <title>Bizurbanmap - Business Directory</title>
+    <link rel="canonical" href="{{canonical_url}}" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Inter&display=swap');
         
@@ -65,7 +65,24 @@
             background-color: #F7CAC9;
             filter: brightness(0.85);
         }
-        
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-link {
+            color: #555;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #F7CAC9;
+        }
+
         .business-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -390,14 +407,17 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <a href="/" class="site-name" id="site-name">bizurbanmap.com</a>
-                <a href="https://localrank.so/citations/" class="get-listed-btn" id="get-listed-btn" rel="nofollow">Get Listed</a>
+                <a href="/" class="site-name" id="site-name">Bizurbanmap</a>
+                <div class="nav-links">
+                    <a href="/blog" class="nav-link">Blog</a>
+                    <a href="https://localrank.so/citations/" class="get-listed-btn" id="get-listed-btn" rel="nofollow">Get Listed</a>
+                </div>
             </div>
         </div>
     </header>
     
     <div class="search-container">
-        <div id="search-title" style="font-size: 64px; text-align: center; margin: 20px 0; color: #f5f5f5; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">bizurbanmap.com</div>
+        <div id="search-title" style="font-size: 64px; text-align: center; margin: 20px 0; color: #f5f5f5; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">Bizurbanmap</div>
         <div class="search-box">
             <input type="text" class="search-input" placeholder="Search for businesses" id="search-input">
             <button class="search-button" id="search-button">
@@ -438,18 +458,15 @@
                 <div class="network-item">
                     <a href="https://dircentral.online" class="network-link" target="_blank">Dir Central</a>
                 </div>
-                <div class="network-item">
-                    <a href="https://directorycity.site" class="network-link" target="_blank">Directory City</a>
-                </div>
             </div>
         </div>
     </div>
-    </div>
+    
     
     <footer>
         <div class="container">
             <div class="footer-content">
-                <span>© <span id="current-year">2025</span> <span id="footer-domain-name">bizurbanmap.com</span>. All rights reserved.</span>
+                <span>© <span id="current-year">2025</span> <span id="footer-domain-name">Bizurbanmap</span>. All rights reserved.</span>
                 <a href="/sitemap.xml">Sitemap</a>
             </div>
         </div>
@@ -460,7 +477,7 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
         
         // Define the domain and API endpoint
-        const domainName = 'bizurbanmap.com';
+        const domainName = 'Bizurbanmap';
         const apiEndpoint = '/citations/directory-urls/';
         
         // Format domain name for display (capitalize first part of domain)
