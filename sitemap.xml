@@ -40032,6 +40032,11 @@
       <priority>0.8</priority>
     </url>
     <url>
+      <loc>https://bizurbanmap.com/salted-cafe-bakery-aflfg</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+    <url>
       <loc>https://bizurbanmap.com/blog/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
